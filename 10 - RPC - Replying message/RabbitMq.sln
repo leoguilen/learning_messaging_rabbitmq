@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{50F50721-A088-4CBA-B96C-F97EA4837759}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{CED67DD2-B28F-4972-8B68-3AF06A8D08D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rabbitmq-rpc-client", "client\rabbitmq-rpc-client.csproj", "{84B10DC4-3A7C-42E6-9011-911A7DEA154F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rabbitmq-rpc-server", "server\rabbitmq-rpc-server.csproj", "{58441C57-7405-4A3E-9AA3-03E8AF9B1680}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84B10DC4-3A7C-42E6-9011-911A7DEA154F} = {CED67DD2-B28F-4972-8B68-3AF06A8D08D1}
+		{58441C57-7405-4A3E-9AA3-03E8AF9B1680} = {50F50721-A088-4CBA-B96C-F97EA4837759}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84B10DC4-3A7C-42E6-9011-911A7DEA154F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B10DC4-3A7C-42E6-9011-911A7DEA154F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B10DC4-3A7C-42E6-9011-911A7DEA154F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B10DC4-3A7C-42E6-9011-911A7DEA154F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58441C57-7405-4A3E-9AA3-03E8AF9B1680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58441C57-7405-4A3E-9AA3-03E8AF9B1680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58441C57-7405-4A3E-9AA3-03E8AF9B1680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58441C57-7405-4A3E-9AA3-03E8AF9B1680}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
